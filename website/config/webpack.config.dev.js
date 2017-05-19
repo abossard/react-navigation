@@ -82,7 +82,10 @@ module.exports = {
     // https://github.com/facebookincubator/create-react-app/issues/290
     extensions: ['.js', '.json', '.jsx', ''],
     alias: {
-      'react-navigation': path.resolve(__dirname, '../../'),
+      'react-navigation': path.resolve(
+        __dirname,
+        '../../packages/react-navigation'
+      ),
     },
   },
   // Keep this because of the fallback setting above ^^
