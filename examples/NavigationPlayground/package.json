@@ -18,9 +18,9 @@
     "test": "node node_modules/jest/bin/jest.js"
   },
   "dependencies": {
-    "expo": "^16.0.0",
+    "expo": "^33.0.1",
     "react": "16.0.0-alpha.6",
-    "react-native": "^0.43.4"
+    "react-native": "^0.69.12"
   },
   "jest": {
     "preset": "jest-expo",
